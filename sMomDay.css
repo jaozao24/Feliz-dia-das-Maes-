@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'beautiful';
+    src: url('fonts/Beauty.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'momommy';
+    src: url('fonts/Filxgirl.TTF') format('truetype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+audio{
+    width: 100%;
+}
+
+.shadowMom{
+    background: black url('imgs/shadowMom.jpg') no-repeat center center/cover fixed;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mom{
+    background: black url('imgs/mamae.jpeg') no-repeat center center/cover fixed;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'beautiful', cursive;
+    font-weight: normal;
+}
+h2{
+    font-size: 3rem;
+    font-family: 'beautiful', cursive;
+    font-weight: normal;
+}
+
+.shadowDiv{
+    width: 100%;
+    height: auto;
+    padding: .5rem;
+    background-color: rgba(0, 0, 0, 0.322);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift{
+    margin-top: 3rem;
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+}
+
+.prg{
+    font-family: 'momommy', cursive;
+    font-size: 2.3rem;
+    line-height: 1.7rem;
+    margin: .3rem 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
